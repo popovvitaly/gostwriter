@@ -19,7 +19,15 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/popovvitaly/gostwriter#readme>
 
 dependencies:
-- base >= 4.7 && < 5
+- base
+- aeson
+- http-api-data
+- http-client
+- http-client-tls
+- mtl
+- servant-client
+- telegram-bot-simple
+- text
 
 executables:
   gostwriter-exe:

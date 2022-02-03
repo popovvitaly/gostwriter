@@ -3,7 +3,25 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    name: telegram-bot-simple
+    version: 0.3.8
+    git: https://github.com/fizruk/telegram-bot-simple.git
+    pantry-tree:
+      size: 2428
+      sha256: e486f01392ae44339f5a7728d3dff42625030940177d5d57842f2cd08006da3b
+    commit: 0c9953a535b72861283b463c2f705f34c36054f9
+  original:
+    git: https://github.com/fizruk/telegram-bot-simple.git
+    commit: 0c9953a535b72861283b463c2f705f34c36054f9
+- completed:
+    hackage: servant-multipart-client-0.12.1@sha256:d043063e2f33eab86840f87c4bdb16eb3fe4a5847a0b118e4f4265cf3ba4c9b3,1892
+    pantry-tree:
+      size: 400
+      sha256: cb02eea7894a94e5dedf5cb74fd5fc6b989711ebb46a0e14d77f74f3b89dcbe0
+  original:
+    hackage: servant-multipart-client-0.12.1@sha256:d043063e2f33eab86840f87c4bdb16eb3fe4a5847a0b118e4f4265cf3ba4c9b3,1892
 snapshots:
 - completed:
     size: 587819

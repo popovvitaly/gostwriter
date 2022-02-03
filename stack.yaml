@@ -40,7 +40,11 @@ packages:
 # - git: https://github.com/commercialhaskell/stack.git
 #   commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
 #
-# extra-deps: []
+extra-deps:
+  - git: https://github.com/fizruk/telegram-bot-simple.git
+    commit: 0c9953a535b72861283b463c2f705f34c36054f9
+
+  - servant-multipart-client-0.12.1@sha256:d043063e2f33eab86840f87c4bdb16eb3fe4a5847a0b118e4f4265cf3ba4c9b3,1892
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
