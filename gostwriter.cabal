@@ -25,6 +25,7 @@ source-repository head
 executable gostwriter-exe
   main-is: Main.hs
   other-modules:
+      ParserExtensions
       Paths_gostwriter
   hs-source-dirs:
       app
