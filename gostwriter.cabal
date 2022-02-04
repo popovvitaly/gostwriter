@@ -25,7 +25,11 @@ source-repository head
 executable gostwriter-exe
   main-is: Main.hs
   other-modules:
+      Const.Keyboards
+      Const.Messages
+      Const.Texts
       ParserExtensions
+      ReplyExtensions
       Paths_gostwriter
   hs-source-dirs:
       app
