@@ -1,13 +1,4 @@
-module Const.Texts(
-  msWordTemplateFileId
-, openTemplateFileId
-, helpMessageText
-, errorMessageText
-, somethingElseMessageText
-, downloadWordTemplateText
-, downloadOpenTemplateText
-, templateCaption
-) where
+module Const.Texts where
 
 import Data.Text (Text, unlines, pack)
 

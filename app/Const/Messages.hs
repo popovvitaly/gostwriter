@@ -1,10 +1,4 @@
-module Const.Messages(
-  openTemplateFile
-, wordTemplateFile
-, helpMessage
-, errorMessage
-, somethingElseMessage
-) where
+module Const.Messages where
 
 import Const.Texts
 import Const.Keyboards

@@ -25,6 +25,9 @@ source-repository head
 executable gostwriter-exe
   main-is: Main.hs
   other-modules:
+      Bibliography.Bibliography
+      Bibliography.Const.Structure
+      Bibliography.Const.Texts
       Const.Keyboards
       Const.Messages
       Const.Texts
@@ -50,9 +53,21 @@ test-suite gostwriter-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      AssertUtils
+      BibliographyTest
+      Bibliography.Bibliography
+      Bibliography.Const.Structure
+      Bibliography.Const.Texts
+      Const.Keyboards
+      Const.Messages
+      Const.Texts
+      Main
+      ParserExtensions
+      ReplyExtensions
       Paths_gostwriter
   hs-source-dirs:
       test
+      app
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       aeson
